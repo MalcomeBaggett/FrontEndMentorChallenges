@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: hsl(233, 47%, 7%);
+  font-family: Lexend Deca;
+  color: white;
+}
+.flex-container {
+  display: flex;
+  flex: row;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+.card-text {
+  background: hsl(244, 38%, 16%);
+  color: white;
+  width:25vw;
+  height: 40vh;
+  padding-top: 5vh;
+  padding-right: 5vw;
+  padding-bottom: 3vh;
+  padding-left: 2.5vw;
+}
+
+.card-text h1 {
+  font-family: Inter;
+  padding-bottom: 2.5vh;
+  font-size: 3vh;
+}
+
+.card-text h1 span {
+  color: hsl(277, 64%, 61%);
+}
+
+.card-text h4 {
+  padding-bottom: 5vh;
+  font-size: 1.5vh;
+  font-weight: 100;
+  color: hsla(0, 0%, 100%, 0.75); 
+}
+.card-text ul {
+  list-style: none;
+  display: flex;
+  align-items: left;
+}
+.card-text li {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5;
+  padding-right: 3vw;
+}
+.card-text p {
+  color:hsla(0, 0%, 100%, 0.6);
+  font-size: 1.25vh;
+}
+.card-image {
+  background: url("../images/image-header-desktop.jpg") 
+  no-repeat center/cover;
+  width:28vw;
+  height: 40vh;
+  z-index: -1;
+}
+.img-overlay {
+  width:100%;
+  height:40vh;
+  background:  hsl(277, 64%, 61%, .7);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%,); }
